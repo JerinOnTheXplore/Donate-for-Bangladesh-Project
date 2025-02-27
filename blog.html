@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5.0.0-beta.8/daisyui.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.24/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <main class="mx-8 md:mx-24 my-4 md:my-5 mt-10 md:mt-20 p-12 border-2 border-slate-200 rounded-lg">
+        <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)?</div>
+            <div class="collapse-content">
+              <p>The Document Object Model (DOM) is a programming interface that represents the structure of an HTML or XML document as a tree-like structure. Each element, attribute, and text within the document is represented as a node in this hierarchical model. The DOM allows developers to interact with and manipulate the content and structure of a webpage dynamically using JavaScript.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+              <p>There are several methods to select elements from the DOM using JavaScript: <br>
+                1. document.getElementById("id") – Selects an element by its unique ID. <br>
+                
+                2. document.getElementsByClassName("class") – Selects elements by class name (returns a collection). <br>
+                
+                3. document.getElementsByTagName("tag") – Selects elements by tag name (returns a collection). <br>
+                
+                4. document.querySelector("selector") – Selects the first matching element using a CSS selector. <br>
+                
+                5. document.querySelectorAll("selector") – Selects all matching elements using a CSS selector (returns a NodeList).</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">Why is event delegation useful?</div>
+            <div class="collapse-content">
+              <p>1. Efficient event handling: Reduces the number of event listeners needed, improving performance. <br>
+
+                2. Handles dynamically added elements: Useful when elements are added or removed dynamically. <br>
+                
+                3. Simplifies code: Keeps event handling logic centralized and easier to maintain</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow bg-base-200">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles using the DOM?</div>
+            <div class="collapse-content">
+              <p>Changing attributes: <br>
+
+               1. element.setAttribute("attribute", "value") – Sets an attribute. <br>
+                
+               2. element.getAttribute("attribute") – Gets an attribute. <br>
+                
+              3.  element.removeAttribute("attribute") – Removes an attribute. <br>
+              4.  element.style.property = "value" – Modifies an inline CSS property. <br>
+
+             5. element.classList.add("class") – Adds a CSS class. <br>
+              
+             6. element.classList.remove("class") – Removes a CSS class. <br>
+              
+             7. element.classList.toggle("class") – Toggles a class on or off. <br>
+            </p>
+            </div>
+          </div>
+    </main>
+</body>
+</html>
